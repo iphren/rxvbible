@@ -1,0 +1,36 @@
+{
+  "name": "bible",
+  "version": "1.0.0",
+  "description": "Read Bible.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "Renjie Yun",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/iphren/bible"
+  },
+  "devDependencies": {
+    "electron": "^5.0.2",
+    "electron-builder": "^20.43.0"
+  },
+  "build": {
+    "appId": "com.church.renjie.Bible",
+    "productName": "RXV Bible",
+    "copyright": "Copyright © 2019 ${author}",
+    "files": [
+      "**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.education"
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.6"
+  }
+}

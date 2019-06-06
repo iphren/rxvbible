@@ -1,0 +1,4 @@
+owner: iphren
+repo: bible
+provider: github
+updaterCacheDirName: bible-updater

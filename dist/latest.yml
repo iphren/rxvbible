@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: bible-setup-1.0.0.exe
+    sha512: 89rQF0KFr5r98/yyVKlnGcrPio3AN+3mIFi11gbpNiQsPhLb0Qq0W6HjA2va4kT5DakE+NyuCl1mBaH8+XvRZQ==
+    size: 77894142
+path: bible-setup-1.0.0.exe
+sha512: 89rQF0KFr5r98/yyVKlnGcrPio3AN+3mIFi11gbpNiQsPhLb0Qq0W6HjA2va4kT5DakE+NyuCl1mBaH8+XvRZQ==
+releaseDate: '2019-06-06T21:47:38.521Z'
