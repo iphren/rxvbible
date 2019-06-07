@@ -1,12 +1,9 @@
 directories:
   output: dist
   buildResources: build
-appId: com.church.renjie.Bible
+appId: com.church.renjie.bible
 productName: RXV Bible
 copyright: 'Copyright © 2019 ${author}'
-files:
-  - filter:
-      - '**/*'
 mac:
   category: public.app-category.education
 electronVersion: 5.0.2

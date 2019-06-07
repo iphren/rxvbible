@@ -2,7 +2,7 @@
   "name": "bible",
   "version": "1.0.0",
   "description": "Read Bible.",
-  "main": "main.js",
+  "main": "scripts/main.js",
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
@@ -20,12 +20,9 @@
     "electron-builder": "^20.43.0"
   },
   "build": {
-    "appId": "com.church.renjie.Bible",
+    "appId": "com.church.renjie.bible",
     "productName": "RXV Bible",
     "copyright": "Copyright © 2019 ${author}",
-    "files": [
-      "**/*"
-    ],
     "mac": {
       "category": "public.app-category.education"
     }
