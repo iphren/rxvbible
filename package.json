@@ -16,7 +16,7 @@
     "url" : "https://github.com/iphren/bible"
   },
   "devDependencies": {
-    "electron": "^5.0.2",
+    "electron": "^9.4.0",
     "electron-builder": "^20.43.0"
   },
   "build": {
